@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-6">
+    <button mat-raised-button (click)="generarString()" >
+      General String
+
+    </button>
+
+    <br>
+    <div class="row" *ngIf="cadena">
+      <div class="col">
+
+        <h1 >
+
+          La cadena es
+        </h1>
+        <h3>{{cadena}}</h3>
+
+        <h1>Contine {{mayuscula}} A</h1>
+        <h1>Contine {{minuscula}} a</h1>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
